@@ -12,7 +12,8 @@
             <h1>newsletter sign up</h1>
         </div>
         <p>
-            &nbsp;</p>
+            <asp:Literal ID="ltMessage" runat="server"></asp:Literal>
+        </p>
         <p>
             <asp:Label ID="Label1" runat="server" Text="email"></asp:Label>
             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
